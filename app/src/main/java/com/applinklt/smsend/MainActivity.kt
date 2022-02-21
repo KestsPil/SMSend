@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "KotlinApp"
+        title = "SMSend"
         editTextNumber = findViewById(R.id.editTextNum)
         editTextMessage = findViewById(R.id.editTextMsg)
         button = findViewById(R.id.btnSendMsg)
